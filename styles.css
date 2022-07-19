@@ -1,0 +1,53 @@
+body{
+    font-family: "Roboto", sans-serif;
+    margin: 0.75rem;
+    font-size: 16px;
+}
+header{
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+}
+
+header #content{
+    display: flex;
+}
+
+.nav-bar ul{
+    display: flex;
+    align-items: flex-end;
+    list-style-type: none;
+}
+
+.nav-bar ul li{
+    padding: 0 0.7rem;
+}
+
+#about{
+    position: relative;
+    top: 11.25rem;
+    padding: 0 25rem;
+    width: fit-content;
+    text-align: center;
+}
+
+#about p{
+    font-weight: 100;
+}
+
+#formation{
+    position: relative;
+    top: 12.5rem;
+
+}
+#formation ul{
+    font-weight: 100;
+}
+
+#skills{
+    top: 20rem;
+}
+
+#contact{
+    top: 25rem;
+}
