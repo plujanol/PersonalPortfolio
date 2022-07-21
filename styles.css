@@ -1,34 +1,49 @@
+*{
+    box-sizing: border-box;
+}
+
 body{
     font-family: "Roboto", sans-serif;
-    margin: 0.75rem;
+    margin: auto;
     font-size: 16px;
 }
+
 header{
-    position: fixed;
-    z-index: 10;
-}
-
-header #content{
-    display: flex;
-}
-
-
-.nav-bar ul{
     display: flex;
     justify-content: flex-end;
-    list-style-type: none;
+    width: 100%;
+    align-items: center;
+    padding: 0 1.4rem;
 }
 
-.nav-bar ul li{
-    padding: 0 0.7rem;
+header ul{
+    list-style-type: none;
+    display: flex;
+    float: right;
+}
+
+header ul li{
+    padding: 0 1rem;
+}
+
+#logo{
+    font-size: 1.7rem;
+    margin-right: auto;
 }
 
 #about{
     position: relative;
-    top: 11.25rem;
-    padding: 0 25rem;
+    padding: 5.5rem 25rem;
     width: fit-content;
     text-align: center;
+    background-color: deepskyblue;
+}
+
+#about img{
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    border: 1px solid black;
 }
 
 #about p{
@@ -37,7 +52,7 @@ header #content{
 
 #formation{
     position: relative;
-    top: 12.5rem;
+    padding: 3rem;
 
 }
 #formation ul{
