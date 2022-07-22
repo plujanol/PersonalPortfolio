@@ -39,6 +39,7 @@ header ul li a:hover{
 #logo{
     font-size: 1.7rem;
     margin-right: auto;
+    letter-spacing: .1rem;
 }
 
 #about{
@@ -61,19 +62,43 @@ header ul li a:hover{
     font-weight: 100;
 }
 
-#formation{
-    position: relative;
-    padding: 3rem;
-
+#projects{
+    padding-top: 3rem;
+    text-align: center;
 }
-#formation ul{
+
+#project{
+    display:inline-block;
+    padding: 0.8rem;
+}
+
+#projects img{
+    height: 13rem;
+    width: 22.875rem;
+}
+
+#training{
+    display: inline-block;
+    position: relative;
+    padding-top: 3rem;
+    text-align: center;
+    line-height: 1.6;
+    padding: 0.8rem;
+    left: 10rem;
+}
+#training ul{
     font-weight: 100;
+    list-style-type: none;
 }
 
 #skills{
-    top: 20rem;
+    display: inline-block;
+    padding-top: 3rem;
+    text-align: center;
+    list-style-type: none;
+    padding: 0.8rem;
 }
 
 #contact{
-    top: 25rem;
+    padding-top: 3rem;
 }
