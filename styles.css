@@ -47,7 +47,7 @@ header ul li a:hover{
     padding: 5.5rem 25rem;
     width: fit-content;
     text-align: center;
-    background-color:#3250A5;
+    background-color:#253C7A;
     color: white;
 }
 
@@ -78,27 +78,73 @@ header ul li a:hover{
 }
 
 #training{
-    display: inline-block;
     position: relative;
+    margin-top: 2.5rem;
     padding-top: 3rem;
     text-align: center;
     line-height: 1.6;
-    padding: 0.8rem;
-    left: 10rem;
+    padding: 1.5rem;
+    background-color:#3250A5;
+    color: white;
 }
+
 #training ul{
-    font-weight: 100;
+    font-weight: 300;
     list-style-type: none;
 }
 
 #skills{
-    display: inline-block;
     padding-top: 3rem;
     text-align: center;
     list-style-type: none;
-    padding: 0.8rem;
+    padding: 2.5rem;
+    font-weight:300;
+    background-color:#3250A5;
+    color: white;
+}
+
+#skills ul{
+    list-style-type: square;
+    -moz-column-gap: 0.8rem;
+    -webkit-column-gap: 0.8rem;
+    column-gap: 2.8rem;
+    display: inline-flex;
+    padding-left: 0;
 }
 
 #contact{
     padding-top: 3rem;
+    text-align: center;
+    position: relative;
 }
+
+#contact img{
+    left: 14rem;
+    width: 50%;
+    position: relative;
+}
+
+#contact ul{
+    list-style-type: none;
+    padding-inline-start: 0;
+}
+
+#contact-info{
+    position: absolute;
+    background-color:253C7A;
+    top: 12rem;
+    left: 27rem;
+    padding: 3rem 5rem;
+    line-height: 1.6rem;
+    color: white;
+}
+
+
+
+/* Color palette: 
+    3250A5
+    253C7A
+    4B7AFA
+    121D3B
+    436DE0
+    */
