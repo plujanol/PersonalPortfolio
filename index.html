@@ -69,11 +69,22 @@
                         <li><img src="./media/email.ico" onclick="showEmail()"/></li>
                     </ul>
                 </div>
+                <script>
+                function showEmail() {
+                    document.getElementById("email-popup").style.display = "block";
+                }
+                </script>
                 <div id="email-popup">
                     <h3>Email Address</h3>
                     <p>p.lujanoliver@gmail.com</p>
+                    <button id="close-email" onclick="closeEmail()">Close</button>
                 </div>
             </div>
+            <script>
+                function closeEmail() {
+                    document.getElementById("email-popup").style.display = "none";
+                }
+                </script>
         </main>
         <footer>
             <span>Pau Lujan development</span>
