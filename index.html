@@ -1,10 +1,9 @@
-<html>
+<html class="htmlclass">
     <head>
         <title>Pau Lujan</title>
         <link href="styles.css" type="text/css" rel="stylesheet"/>
-        <script src="script.js"></script>
+        <script src="script.js" type="text/javascript"></script>
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&family=Source+Sans+Pro:ital,wght@0,200;0,400;0,900;1,400&display=swap" rel="stylesheet">
-    </head>
     <body>
         <header>
                 <h1 id="logo">Pau Lujan</h1>
@@ -14,7 +13,7 @@
                         <li class="menu"><a href="#projects">Projects</a></li>
                         <li class="menu"><a href="#training">Training</a></li>
                         <li class="menu"><a href="#skills">Skills</a></li>
-                        <li class="menu"><a href="#">Contact</a></li>
+                        <li class="menu"><a href="#contact">Contact</a></li>
                     </ul>
                 </nav>
         </header>
@@ -61,16 +60,24 @@
                 </ul>
             </div>
             <div id="contact">
-                <img src="./media/contact-bg.jpg" alt="Computer Background Stock Image"/>
+                <img src="./media/contact-bg.jpg" id="bg" alt="Computer Background Stock Image"/>
                 <div id="contact-info">
+                    <h2>Contact Information</h2>
                     <ul>
-                        <li><h2>Contact Information</h2></li>
-                        <li>LinkedIn</li>
-                        <li>GitHub</li>
-                        <li>Email</li>
+                        <li><a href="https://www.linkedin.com/in/pau-lujan-oliver-9445aa212"><img src="./media/linkedin.ico" alt="LinkedIn access logo"/></a></li>
+                        <li><a href="https://github.com/plujanol"><img src="./media/github.ico"/></a></li>
+                        <li><img src="./media/email.ico" onclick="showEmail()"/></li>
                     </ul>
+                </div>
+                <div id="email-popup">
+                    <h3>Email Address</h3>
+                    <p>p.lujanoliver@gmail.com</p>
                 </div>
             </div>
         </main>
+        <footer>
+            <span>Pau Lujan development</span>
+            <span>All rights reserved&copy;</span>
+        </footer>
     </body>
 </html>
